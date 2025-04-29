@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login &  | Ludiflex</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-header">
+            <div class="titles">
+                <div class="title-login">Login</div>
+                <div class="title-register"></div>
+            </div>
+        </div>
+        <!-- LOGIN FORM -->
+        <form action="#" class="login-form" autocomplete="off">
+            <div class="input-box">
+                <input type="text" class="input-field" id="log-email" required>
+                <label for="log-email" class="label">Your ID Number</label>
+                <i class='bx bx-user icon'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" class="input-field" id="log-pass" required>
+                <label for="log-pass" class="label">Password</label>
+                <i class='bx bx-lock-alt icon' ></i>
+            </div>
+            <div class="form-cols">
+                <div class="col-1"></div>
+                <div class="col-2">
+                    <a href="#"></a>
+                </div>
+            </div>
+            <div class="input-box">
+                <button class="btn-submit" id="SignInBtn">Sign In <i class='bx bx-log-in' ></i></button>
+            </div>
+            <div class="switch-form">
+                <span> <a href="#" onclick="registerFunction()">SECURE ACCESS ONLY — UNAUTHORIZED USERS WILL BE TRACKED</a></span>
+            </div>
+        </form>
+    </div>
+    <script>
+        // ফর্মের লগইন বাটন ক্লিক করার সাথে সাথে মেন হেমপেজ ওপেন করার জন্য স্ক্রিপ্ট
+        function loginRedirect() {
+          // এখানে আপনি আপনার মেন HTML ফাইলের পাথ দিতে পারেন
+          window.location.href = "Main Page/Index.Html"; // এই পাথ আপনার মেন পেজের পাথ হতে হবে
+          return false; // ফর্ম সাবমিট হবে না
+        }
+      </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
