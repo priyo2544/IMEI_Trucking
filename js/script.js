@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (numberInput === allowedNumber && passwordInput === allowedPassword) {
             alert("✅ সঠিক তথ্য! লগইন হচ্ছে...");
-            window.location.href = "Main Page/Index.Html"; // এখানে মূল পেইজ লিংক দিন
+            window.location.href = "Index.Html"; // এখানে মূল পেইজ লিংক দিন
         } else {
             alert("❌ ভুল নাম্বার বা পাসওয়ার্ড! অনুগ্রহ করে সঠিক তথ্য দিন।");
         }
