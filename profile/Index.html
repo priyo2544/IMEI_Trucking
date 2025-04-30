@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BD Cyber Police - IMEI Surveillance</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0c0c0f;
+      color: #00ffcc;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: #000000;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #00ffcc;
+      box-shadow: 0 0 20px #00ffcc44;
+    }
+
+    header h1 {
+      font-size: 28px;
+      color: #00ffcc;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 14px;
+      color: #ff3333;
+    }
+
+    .banner {
+      background-color: #250000;
+      color: #ff4444;
+      text-align: center;
+      padding: 10px;
+      font-size: 13px;
+      border-top: 2px solid #ff4444;
+      border-bottom: 2px solid #ff4444;
+    }
+
+    .container {
+      padding: 30px;
+    }
+
+    .info-panel, .location-table, .map-panel {
+      background: #101010;
+      padding: 20px;
+      margin-bottom: 25px;
+      border: 1px solid #00ffcc66;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #00ffcc22;
+    }
+
+    .info-panel p {
+      margin: 5px 0;
+      font-size: 15px;
+    }
+
+    .map-panel {
+      height: 600px;
+      width: 100%;
+      background: url('https://via.placeholder.com/600x300.png?text=Real-Time+IMEI+Tracking+Visualization') no-repeat center center;
+      background-size: cover;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    th, td {
+      padding: 12px;
+      border: 1px solid #00ffcc33;
+      text-align: left;
+    }
+
+    th {
+      background: #003333;
+    }
+
+    tr:nth-child(even) {
+      background-color: #111;
+    }
+
+    tr.highlight {
+      background-color: #002222;
+      color: #00ffcc;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 12px;
+      background-color: #0a0a0a;
+      border-top: 1px solid #333;
+      color: #555;
+    }
+
+    .alert-box {
+      background-color: #ff3333;
+      color: white;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BD CYBER POLICE IMEI TRACKER</h1>
+    <p>ACCESS LEVEL: GOVERNMENT ONLY | INTERNAL SURVEILLANCE DASHBOARD</p>
+  </header>
+
+  <div class="banner">
+    ⚠️ UNAUTHORIZED ACCESS WILL BE PROSECUTED UNDER CYBER SECURITY ACT 2023 (BD)
+  </div>
+
+  <div class="container">
+    <section class="info-panel">
+      <p><strong>IMEI:</strong> 351211130172677/353802750172670</p>
+      <p><strong>Model:</strong> Samsung Galaxy A15 5G</p>
+      <p><strong>SIM Operator:</strong> Grameenphone</p>
+      <p><strong>Phone Number:</strong> +880721816047</p>
+      <p><strong>Registered Owner:</strong> Liton Ahmed</p>
+      <p><strong>Device Status:</strong> ✅ Active</p>
+      <p><strong>Last Active:</strong> April 28, 2025 — 1:32 PM</p>
+    </section>
+
+    <!-- Customized Map Visualization -->
+    <!-- Deep Surveillance Report Panel -->
+    <section class="map-panel">
+        <h3 style="margin-bottom: 15px; color: #00ffcc;">📄 NID Verification & SIM Ownership Log</h3>
+        <div style="font-size: 14px; color: #99ffcc; line-height: 1.6;">
+          <p><strong>SIM Number:</strong> +8801789XXXXXX</p>
+          <p><strong>Registered NID Number:</strong> 1998xxxxxx275</p>
+          <p><strong>NID Holder Name:</strong> মোঃ রিয়াজ উদ্দিন</p>
+          <p><strong>Father's Name:</strong> আব্দুল হান্নান</p>
+          <p><strong>Mother's Name:</strong> রহিমা খাতুন</p>
+          <p><strong>Date of Birth:</strong> ১২ ফেব্রুয়ারি, ১৯৮৭</p>
+          <p><strong>Present Address:</strong> বাড়ি ৪৭, রোড ৯, ব্লক ডি, মিরপুর-১১, ঢাকা</p>
+          <p><strong>Permanent Address:</strong> গ্রাম: চাঁদপুরপুর, পোস্ট: বড়হাতা, উপজেলা: কুলাউড়া, জেলা: মৌলভীবাজার</p>
+          <p><strong>SIM Activation Date:</strong> ০৫ জানুয়ারি, ২০২৩</p>
+          <p><strong>Last SIM Update:</strong> ১৫ মার্চ, ২০২৫ (Photo & Biometric Verified)</p>
+          <p><strong>Verification Source:</strong> Teletalk NID API | BTRC Secure Link</p>
+        </div>
+        <div style="margin-top: 20px; background: #330000; padding: 15px; border: 1px solid #ff444433; border-radius: 8px;">
+          <p style="color: #ff4444; font-weight: bold;">🔒 SIM Ownership Legally Verified</p>
+          <p style="color: #cccccc;">All NID and biometric data matched with national registry. Identity spoofing not detected. Data encrypted through BTRC-NVR channel.</p>
+        </div>
+      </section>
+      <!-- Real-Time IMEI Tracking Visualization Placeholder -->
+      <div class="alert-box">Real-time location tracking in progress...</div>
+    </section>
+
+    <section class="location-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Location</th>
+            <th>Coordinates</th>
+            <th>Status</th>
+            <th>CyberWatch 360</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>27/04/2025-6:15 PM</td>
+            <td>Tongi, Gazipur</td>
+            <td>23.916260° N,90.390687° E</td>
+            <td>Active</td>
+          </tr>
+          <tr>
+            <td>28/04/2025-10:35 AM</td>
+            <td>Mondol Bari Road, Bypass</td>
+            <td>23.940660° N, 90.271729° E</td>
+            <td>Moving</td>
+          </tr>
+          <tr>
+            <td>28/04/2025-06:55 PM</td>
+            <td>Jatrabari, ঢাকা</td>
+            <td>23.7104° N, 90.4074° E</td>
+            <td>Changed</td>
+          </tr>
+          <tr class="highlight">
+            <td>29/044/2025-11:24 PM</td>
+            <td>Soumitra Roy, Kuwaiti Mosque Rd, Dhaka 1212, Bashundhara</td>
+            <td>23.807629° N, 90.427548° E</td>
+            <td>WiFi Connected</td>
+
+            <tr class="highlight">
+                <td>30/04/2025-06:36 AM</td>
+                <td>Shop- 4B19G, Block- B, Lift- 4, Jamuna Future Park, Dhaka 1229</td>
+                <td>23.807629° N, 90.427548° E</td>
+                <td></td><td>Factory Reset</td>
+
+                <tr class="highlight">
+                    <td>১:৩২ PM</td>
+                    <td>Shop- 4B19G, Block- B, Lift- 4, Jamuna Future Park, Dhaka 1229</td>
+                    <td>23.807629° N, 90.427548° E</td>
+                    <td>WiFi Connected</td><td>Location connected</td>
+
+                    <tr class="highlight">
+                        <td>১:৩২ PM</td>
+                        <td>Showroom 24/B Zone D Level 4 Jamuna Future Park, 1229</td>
+                        <td>23.807629° N, 90.427548° E</td>
+                        <td>Unlock Tools connection</td><td>Unlock the phone<td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+  <footer>
+    Surveillance System v3.9 © Bangladesh Cyber Monitoring Unit. For Investigative Use Only.
+  </footer>
+</body>
+</html>

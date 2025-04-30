@@ -8,12 +8,13 @@ document.addEventListener("DOMContentLoaded", function () {
         const passwordInput = document.getElementById("log-pass").value.trim();
 
         // 🔐 শুধু নির্দিষ্ট নাম্বার ও পাসওয়ার্ডে প্রবেশযোগ্য
-        const allowedNumber = "01612023490";   // আপনার নির্ধারিত নাম্বার
-        const allowedPassword = "Authan490";  // আপনার নির্ধারিত পাসওয়ার্ড
+        const allowedNumber = "01612023490";
+        const allowedPassword = "Authan490";
 
         if (numberInput === allowedNumber && passwordInput === allowedPassword) {
             alert("✅ সঠিক তথ্য! লগইন হচ্ছে...");
-            window.location.href = "Index.Html"; // এখানে মূল পেইজ লিংক দিন
+            // ✅ এখানে সরাসরি রিডাইরেক্ট করুন
+            window.location.href = "profile/Index.html";
         } else {
             alert("❌ ভুল নাম্বার বা পাসওয়ার্ড! অনুগ্রহ করে সঠিক তথ্য দিন।");
         }
